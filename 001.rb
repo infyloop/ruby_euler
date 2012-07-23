@@ -16,11 +16,20 @@ end
 print $sum
 =end
 
-# Approach2, *naiver*
-
 sum = 0; high=1000;cnt = 0;
+
+# Approach2, *naiver*
+=begin
 begin
   sum += cnt if cnt%3 == 0 or cnt%5 == 0
   cnt += 1
 end while cnt < high
+print sum
+=end
+
+#Approach3, *naive*
+
+for cnt in 0..high-1
+  sum += cnt if cnt%3 == 0 or cnt%5 == 0
+end
 print sum
