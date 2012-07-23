@@ -9,9 +9,6 @@ while $cnt < $high do
 end
 print $sum
 
-
-
-
 # Approach2, *naiver*
 sum = 0; high=1000;cnt = 0;
 
