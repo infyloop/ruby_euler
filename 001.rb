@@ -28,8 +28,17 @@ print sum
 =end
 
 #Approach3, *naive*
-
+=begin
 for cnt in 0..high-1
   sum += cnt if cnt%3 == 0 or cnt%5 == 0
 end
 print sum
+=end
+
+#Approach4, *naive*
+(0..high-1).each do |cnt|
+  sum += cnt if cnt%3 == 0 or cnt%5 == 0
+end
+print sum
+
+
