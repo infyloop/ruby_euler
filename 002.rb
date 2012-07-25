@@ -1,5 +1,4 @@
 high = 4000000
-
 arr = [0, 1]
 while arr.last < high
   arr << arr[-2] + arr[-1]
